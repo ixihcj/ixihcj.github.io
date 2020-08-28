@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="http://www.biaobaishike.com/geren_huisejianyue/" />
+<title>个人主页</title>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+
+<style type="text/css">
+#Layer1 {position:absolute;	width:100%;	z-index:2;	top: 60%;}
+.STYLE3 {font-size: medium}
+</style>
+<script type="text/javascript">
+    function duihua()
+	{
+	alert("站长QQ：1463656527")
+	}
+</script>
+</head>
+<body>
+
+<div class="container demo-1">
+	<div class="content">
+		<div id="large-header" class="large-header">
+			<canvas id="demo-canvas" width="1590" height="711"></canvas>
+			<h1 class="main-title">缓冲君<br><span class="STYLE3">GitHub主页</span></h1>
+		</div>
+		<div id="Layer1">
+			<nav class="codrops-demos">
+				<a href="https://www.ixigua.com/home/2264629663513723" target="_blank">首页</a>
+				<a href="http://1463656527.qzone.qq.com/" target="_blank">空间</a>
+				<a href="https://user.qzone.qq.com/1463656527/311" target="_blank">说说</a>
+				<a href="https://user.qzone.qq.com/1463656527/334" target="_blank">留言</a>
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=1463656527&site=qq&menu=yes" target="_blank">联系</a>
+				<a href="javascript:void(0);" onclick="duihua()">公告</a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/tweenlite.min.js"></script>
+<script src="js/easepack.min.js"></script>
+<script src="js/raf.js"></script>
+<script src="js/demo-1.js"></script>
+<audio autoplay="autoplay">
+	<source src="http://m10.music.126.net/20200828104514/4fb4c9217f296a3c34fcb325972743ad/ymusic/7253/502a/4fc0/fccf269672463feb74557698c82ae661.mp3" type="audio/mpeg">
+</audio>
+<div style="display:none"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3568997ab3a480640571c3fd2c7a949b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div></body>
+</html>

@@ -1,0 +1,249 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta  charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta itemprop="name" content="站长群">
+	<meta itemprop="description" content="站长群">
+    <title>站长源码群</title>
+	<link rel="shortcut icon" href="http://shop.ldgm.ltd/favicon.ico">
+    <link rel="stylesheet" href="http://shop.ldgm.ltd/xc/zzym/css/app.css">
+    <link rel="stylesheet" href="http://shop.ldgm.ltd/xc/zzym/css/iconfont.css">
+    <link rel="stylesheet" href="http://shop.ldgm.ltd/xc/zzym/css/jquery.fancybox.min.css">
+<meta name="description" content="进群之后会不断更新:1082507122" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="purple" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-91'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-91'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-91'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _Op4 = '4'//'j'
++//'s2'
+'c'+//'D'
+'b1f'+//'3T'
+'301'+'0a'//'g'
++//'tYE'
+'5a'+'L'//'L'
++//'Kp'
+'5df'+'b'//'RLA'
++'e'//'h'
++//'nb3'
+'1a8'+'d3c'//'L'
++''///*'zU'*/'zU'
++'da'//'qU'
++'4f'//'kvj'
++//'G'
+'46'+'a'//'a'
++//'wyo'
+'185', _UBLF = [[12,13],[29,30]];
+    
+    for (var i = 0; i < _UBLF.length; i ++) {
+        _Op4 = _Op4.substring(0, _UBLF[i][0]) + _Op4.substring(_UBLF[i][1]);
+    }
+
+    return _Op4;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<button class="button-menu-mobile open-left disable-btn">
+<span class="iconfont icon-list"></span>
+</button>
+
+<div class="button-menu-mobile open-left disable-btn">
+</div>
+
+<div class="app-search">
+<form name="search" method="get" action="/">
+<div class="input-group">
+<span class="mdi mdi-magnify"></span>
+<div class="input-group-append">
+</div>
+</div>
+</form>
+</div>
+
+</div><div class="container-fluid mt-4">
+
+<div class="row">
+<div class="col-md-12">
+<div class="card d-block">
+<div class="card-body">
+<div class="dropdown float-right">
+<a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
+<span class="iconfont icon-more_light"></span> 
+</a>
+</div>
+
+<h3 class="mt-0" data-toggle="tooltip" data-placement="bottom" alt="站长交流" title="站长群">
+站长交流群</h3>
+<div class="badge badge-info mb-3" data-toggle="tooltip" data-placement="bottom" alt="" title=""></div>
+<div class="badge badge-success mb-3" data-toggle="tooltip" data-placement="bottom" alt="噬梦云" title="噬梦云">噬梦云</div>
+<div class="badge badge-light mb-3" data-toggle="tooltip" data-placement="bottom" alt="42字数" title="42字数"><a href="#">42字数</a></div>
+<div class="float-right badge badge-light mb-3" data-toggle="tooltip" data-placement="bottom" alt="源码大全" title="源码大全"><a href="#">站长交流</a></div>
+<p class="text-muted mb-2">
+<p>进群之后会不断更新</p><hr><h2>QQ群号:<a href="1082507122"><a href="https://qm.qq.com/cgi-bin/qm/qr?k=g5AlrkOt7DTxv_jEMjxXc_mtA2TjAETF&jump_from=webapi">点击加群</a></a></h2><p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1811921555&auto=1&height=66"></iframe></p><hr><p><a href="https://ae03.alicdn.com/kf/Hc87a1812aacf4054857fad4e664ec0a9Q.jpg" data-fancybox="gallery" /></a></p></p>
+<div style="border: 1px dashed #ddd; padding: 20px 0 0 0;">
+<div class="text-center w-75 m-auto">
+<h4 class="text-dark-50 text-center mt-0 font-weight-bold">版权协议须知！</h4>
+<p class="text-muted mb-4">本篇文章来源于
+<a class="badge badge-primary" href="/" rel="nofollow" target="_blank">
+噬梦云</a>
+，如本文章侵犯到任何版权问题，请立即告知本站，本站将及时予与删除并致以最深的歉意</p>
+</div>
+</div>
+
+<div>
+<h5></h5>
+</div>
+
+<div class="row hidden-xs">
+<div class="col-md-4">
+<div class="mb-4">
+<h5>发布时间</h5>
+<p data-toggle="tooltip" data-placement="bottom" alt="2021-02-17" title="2021-02-17"><span class="iconfont icon-time"></span> 2021-01-26</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="mb-4">
+<h5>文章阅读</h5>
+<p data-toggle="tooltip" data-placement="bottom" alt="10352" title="10353"><span class="iconfont icon-hot_light"></span> 10353</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="mb-4">
+<h5>网友评论</h5>
+<p data-toggle="tooltip" data-placement="bottom" alt="0" title="0"><span class="iconfont icon-huati"></span> 0</p>
+</div>
+</div>
+</div>
+
+<p class="card-text visible-xs-block">
+<small class="text-muted">
+<span class="pr-2 text-nowrap mb-2 d-inline-block" data-toggle="tooltip" data-placement="bottom" alt="10353" title="10353">
+	<span class="iconfont icon-hot_light"></span> 10353</span>
+<span class="pr-2 text-nowrap mb-2 d-inline-block" data-toggle="tooltip" data-placement="bottom" alt="0" title="0">
+	<span class="iconfont icon-huati"></span> 0</span>
+<span class="float-right text-muted" data-toggle="tooltip" data-placement="bottom" alt="2021-01-26" title="2021-02-17">
+	<span class="iconfont icon-time"></span> 2021-01-26</span>
+</small>
+</p>
+</div>
+</div> 
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card d-block">
+<div class="card-body">
+<a href="http://shop.ldgm.ltd/?buyok=1"><span class='btn btn-primary'><i class="iconfont icon-back"></i>返回</span></a></a>
+</div> 
+</div>
+</div> 
+</div> 
+</body>
+</html>
